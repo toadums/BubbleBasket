@@ -1,0 +1,5 @@
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\Debug\App.g.cs
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\Debug\MainPage.g.cs
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\Debug\SharpDX Toolkit Windows Phone.g.resources
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\Debug\BubbleBasket_WP8.Resources.AppResources.resources
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\Debug\BubbleBasket-WP8.csproj.GenerateResource.Cache

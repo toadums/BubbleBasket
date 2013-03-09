@@ -1,0 +1,35 @@
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\Assets\ApplicationIcon.png
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX Toolkit Windows Phone.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX Toolkit Windows Phone.pdb
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\AppManifest.xaml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX_Toolkit_Windows_Phone_Debug_ARM.xap
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Direct3D11.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.DXGI.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.Game.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.Input.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.WP8.winmd
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Direct3D11.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.DXGI.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.Toolkit.Input.xml
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\Bin\ARM\Debug\SharpDX.WP8.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\BubbleBasket-WP8.csprojResolveAssemblyReference.cache
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\App.g.cs
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\MainPage.g.cs
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\SharpDX Toolkit Windows Phone.g.resources
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\BubbleBasket_WP8.Resources.AppResources.resources
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\BubbleBasket-WP8.csproj.GenerateResource.Cache
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\SharpDX Toolkit Windows Phone.dll
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\SharpDX Toolkit Windows Phone.pdb
+C:\Users\paul\Documents\GitHub\BubbleBasket\BubbleBasket-WP8\BubbleBasket-WP8\BubbleBasket-WP8\obj\ARM\Debug\XapCacheFile.xml
