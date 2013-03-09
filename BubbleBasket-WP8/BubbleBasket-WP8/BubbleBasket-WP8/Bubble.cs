@@ -1,5 +1,6 @@
 ﻿using SharpDX;
 using SharpDX.Toolkit.Graphics;
+using SharpDX.Toolkit.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace BubbleBasket_WP8
         public static Texture2D CircleTexture;
         public Color CircleColor { get; set; }
         public BubbleType MyType = BubbleType.Normal;
+
 
         public Bubble(Vector2 v, Vector2 a, Vector2 p, int t,float d)
         {

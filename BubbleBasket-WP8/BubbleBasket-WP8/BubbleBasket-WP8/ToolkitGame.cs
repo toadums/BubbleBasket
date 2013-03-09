@@ -21,6 +21,7 @@
 using SharpDX;
 using SharpDX.Toolkit;
 using SharpDX.Toolkit.Graphics;
+using SharpDX.Toolkit.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,6 +52,9 @@ namespace BubbleBasket_WP8
         Texture2D BallTexture;
         Texture2D Background;
 
+        private readonly IPointerService pointerService;
+        private readonly PointerState pointerState = new PointerState();
+
         public static Vector2 ScreenBounds;
 
         public enum BubbleColor : long
@@ -70,13 +74,17 @@ namespace BubbleBasket_WP8
         Vector3 Blue = new Vector3((float)0x74 / 256.0f, (float)0xE0 / 256.0f, (float)0xFF / 256.0f);
         Vector3 White = new Vector3((float)0xFF / 256.0f, (float)0xFF / 256.0f, (float)0xFF / 256.0f);
 
-        Bubble Bub;
+        List<Bubble> Bubs;
 
         public ToolkitGame()
         {
+
+            pointerService = new PointerManager(this);
+            Bubs = new List<Bubble>();
             // Creates a graphics manager. This is mandatory.
             graphicsDeviceManager = new GraphicsDeviceManager(this);
-            graphicsDeviceManager.PreferredDepthStencilFormat = DepthFormat.None;
+            graphicsDeviceManager.SynchronizeWithVerticalRetrace = false;
+            IsFixedTimeStep = false;
 
             // Setup the relative directory to the executable directory
             // for loading contents with the ContentManager
@@ -99,12 +107,14 @@ namespace BubbleBasket_WP8
             Background = Content.Load<Texture2D>("bb_bg768x1280.dds");
 
             Random rand = new Random();//create a new random instance
-            float sign = (rand.Next(2) == 0) ? (-1) : 1;//get a random number that determines whether particles X acceleration + velocity is +/-
-            Vector2 velocity = new Vector2((1 + rand.Next(2)) * sign, (-1) * (80 + 10 + rand.Next(50)));//randomize x and y velocity
-            Vector2 acc = new Vector2(((float)2.3 * sign), (float)19.0);//intialize acceleration
+            for (int i = 0; i < 1000; i++)
+            {
+                float sign = (rand.Next(2) == 0) ? (-1) : 1;//get a random number that determines whether particles X acceleration + velocity is +/-
+                Vector2 velocity = new Vector2((1 + rand.Next(2) * i) * sign, (-1) * (80 + 10 * i + rand.Next(50)));//randomize x and y velocity
+                Vector2 acc = new Vector2(((float)2.3 * sign), (float)19.0);//intialize acceleration
 
-            Bub = new Bubble(velocity, acc, new Vector2(50,500), 300 + rand.Next(100), (float)0.09);
-
+                Bubs.Add(new Bubble(velocity, acc, new Vector2(400, 900), 300 + rand.Next(100), (float)0.09));
+            }
             Bubble.CircleTexture = Content.Load<Texture2D>("WhiteBubble75x75.dds");
 
             ScreenBounds = new Vector2(GraphicsDevice.BackBuffer.Width, GraphicsDevice.BackBuffer.Height);
@@ -119,7 +129,15 @@ namespace BubbleBasket_WP8
 
         protected override void Update(GameTime gameTime)
         {
-            Bub.Update();
+
+            pointerService.GetState(pointerState);
+
+
+            foreach (Bubble Bub in Bubs)
+            {
+                Bub.Update();
+            }
+
             base.Update(gameTime);
         }
 
@@ -128,12 +146,18 @@ namespace BubbleBasket_WP8
             // Clears the screen with the Color.CornflowerBlue
             GraphicsDevice.Clear(Color.White);
 
+            spriteBatch.Begin();
+            spriteBatch.Draw(Background, new Vector2(0, 0), Color.White);
+            spriteBatch.End();
 
             spriteBatch.Begin(SpriteSortMode.Deferred, GraphicsDevice.BlendStates.NonPremultiplied);
 
-            spriteBatch.Draw(Background, new Vector2(0, 0), Color.White);
-            spriteBatch.Draw(BallTexture, Bub.Position, new Color(Red, 0xFF));
+           // 
 
+            foreach (Bubble Bub in Bubs)
+            {
+                spriteBatch.Draw(BallTexture, Bub.Position, new Color(Red, 0xFF));
+            }
             spriteBatch.End();
 
             // Handle base.Draw
