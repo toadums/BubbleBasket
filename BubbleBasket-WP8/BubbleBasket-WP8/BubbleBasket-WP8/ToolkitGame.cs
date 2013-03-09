@@ -70,7 +70,7 @@ namespace BubbleBasket_WP8
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            BallTexture = Content.Load<Texture2D>("WhiteBall.dds");
+            BallTexture = Content.Load<Texture2D>("WhiteBubble.dds");
 
             base.LoadContent();
         }
@@ -91,8 +91,8 @@ namespace BubbleBasket_WP8
             // Clears the screen with the Color.CornflowerBlue
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            spriteBatch.Begin();
-            spriteBatch.Draw(BallTexture, new Vector2(50, 50), Color.White);
+            spriteBatch.Begin(SpriteSortMode.Deferred, GraphicsDevice.BlendStates.NonPremultiplied);
+            spriteBatch.Draw(BallTexture, new Vector2(50, 50), Color.Red);
             spriteBatch.End();
 
             // Handle base.Draw
