@@ -1,0 +1,5 @@
+red #ed2024
+purple #4c4ea1
+yellow #ffee00
+green #6abd45
+blue #74e0ff
